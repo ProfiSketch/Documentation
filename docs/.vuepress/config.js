@@ -15,7 +15,7 @@ module.exports = {
     locales: {
       "/": {
         nav: [
-          comments.md       {
+          {
             text: "ProfiSketch.com",
             link: "https://profisketch.com"
           }
