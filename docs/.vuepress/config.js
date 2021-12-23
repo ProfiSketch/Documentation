@@ -15,7 +15,7 @@ module.exports = {
     locales: {
       "/": {
         nav: [
-          {
+   comments.mdcomments.md       {
             text: "ProfiSketch.com",
             link: "https://profisketch.com"
           }
@@ -25,30 +25,30 @@ module.exports = {
             {
               title: "Содержание",
               children: [
-                "/calc/",
-                "/calc/comments/",                  // 0.   Пояснения
-                "/calc/profile/",                   // 1.   Личный кабинет пользователя
-                "/calc/profile/registration",       // 1.1. Регистрация
-                "/calc/profile/create_project",     // 1.2. Создание проекта
-                "/calc/editor2d/",                  // 2.   Создание 2D-схемы
-                "/calc/editor2d/shapes_placing",    // 2.1. Размещение фигур
-                "/calc/editor2d/libraries",         // 2.2. Библиотеки условно-графических обозначений
-                "/calc/editor2d/searching",         // 2.3. Поиск фигур
-                "/calc/editor2d/properties",        // 2.4. Свойства элементов
-                "/calc/editor2d/connections",       // 2.5. Соединение фигур
-                "/calc/editor2d/drafting",          // 2.6. Приёмы работы при оформлении чертежа
-                "/calc/db/",                        // 3.   База данных
-                "/calc/db/search",                  // 3.1. Поиск оборудования
-                "/calc/db/properties",              // 3.2. Перенос атрибутивной информации
-                "/calc/db/edit",                    // 3.3. Редактирование свойств
-                "/calc/db/create",                  // 3.4. Создание собственных элементов
-                "/calc/specification/",             // 4.   Спецификация
-                "/calc/specification/settings",     // 4.1. Настройка таблицы
-                "/calc/specification/export",       // 4.2. Экспорт таблицы
-                "/calc/timelapse",                  // 5.   Таймлапс создания схемы
-                "/calc/support",                    // 6.   Техническая поддержка
-                "/calc/plugins",                    // 7.   Плагины
-                "/calc/convertation",               // 8.   Перевод 2D-схем в 3D-модель
+                "/ps/",
+                "/ps/comments/",                  // 0.   Пояснения
+                "/ps/profile/",                   // 1.   Личный кабинет пользователя
+                "/ps/profile/registration",       // 1.1. Регистрация
+                "/ps/profile/create_project",     // 1.2. Создание проекта
+                "/ps/editor2d/",                  // 2.   Создание 2D-схемы
+                "/ps/editor2d/shapes_placing",    // 2.1. Размещение фигур
+                "/ps/editor2d/libraries",         // 2.2. Библиотеки условно-графических обозначений
+                "/ps/editor2d/searching",         // 2.3. Поиск фигур
+                "/ps/editor2d/properties",        // 2.4. Свойства элементов
+                "/ps/editor2d/connections",       // 2.5. Соединение фигур
+                "/ps/editor2d/drafting",          // 2.6. Приёмы работы при оформлении чертежа
+                "/ps/db/",                        // 3.   База данных
+                "/ps/db/search",                  // 3.1. Поиск оборудования
+                "/ps/db/properties",              // 3.2. Перенос атрибутивной информации
+                "/ps/db/edit",                    // 3.3. Редактирование свойств
+                "/ps/db/create",                  // 3.4. Создание собственных элементов
+                "/ps/specification/",             // 4.   Спецификация
+                "/ps/specification/settings",     // 4.1. Настройка таблицы
+                "/ps/specification/export",       // 4.2. Экспорт таблицы
+                "/ps/timelapse",                  // 5.   Таймлапс создания схемы
+                "/ps/support",                    // 6.   Техническая поддержка
+                "/ps/plugins",                    // 7.   Плагины
+                "/ps/convertation",               // 8.   Перевод 2D-схем в 3D-модель
 
                 "/calc/math",                       // Оставлено для примера, удалить
                 "/calc/interface",                  // Оставлено для примера, удалить
