@@ -30,13 +30,10 @@ module.exports = {
 
                 "/ps/profile/",                   // 1.   Личный кабинет пользователя
 
-                {
-                    children: [
-                        "/ps/profile/registration",       // 1.1. Регистрация
-                        "/ps/profile/create_project",     // 1.2. Создание проекта
-                    ]
-                }
-
+                children: [
+                    "/ps/profile/registration",       // 1.1. Регистрация
+                    "/ps/profile/create_project",     // 1.2. Создание проекта
+                ]
 
                 "/ps/editor2d/",                  // 2.   Создание 2D-схемы
                 "/ps/editor2d/shapes_placing",    // 2.1. Размещение фигур
