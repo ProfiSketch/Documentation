@@ -26,7 +26,7 @@ module.exports = {
               title: "Содержание",
               children: [
                 "/ps/",
-                "/ps/comments/",                  // 0.   Пояснения
+                "/ps/comments",                  // 0.   Пояснения
                 "/ps/profile/",                   // 1.   Личный кабинет пользователя
                 "/ps/profile/registration",       // 1.1. Регистрация
                 "/ps/profile/create_project",     // 1.2. Создание проекта
