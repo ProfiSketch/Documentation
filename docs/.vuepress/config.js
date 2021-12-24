@@ -26,7 +26,7 @@ module.exports = {
               title: "Содержание",
               children: [
                 "/ps/",
-                "/ps/comments",                  // 0.   Пояснения
+                "/ps/comments",                   // 0.   Пояснения
                 "/ps/profile/",                   // 1.   Личный кабинет пользователя
                 "/ps/profile/registration",       // 1.1. Регистрация
                 "/ps/profile/create_project",     // 1.2. Создание проекта
@@ -50,10 +50,10 @@ module.exports = {
                 "/ps/plugins",                    // 7.   Плагины
                 "/ps/convertation",               // 8.   Перевод 2D-схем в 3D-модель
 
-                "/calc/math",                       // Оставлено для примера, удалить
-                "/calc/interface",                  // Оставлено для примера, удалить
-                "/calc/settings",                   // Оставлено для примера, удалить
-                "/calc/dev"                         // Оставлено для примера, удалить
+                //"/calc/math",                       // Оставлено для примера, удалить
+                //"/calc/interface",                  // Оставлено для примера, удалить
+                //"/calc/settings",                   // Оставлено для примера, удалить
+                //"/calc/dev"                         // Оставлено для примера, удалить
               ],
               collapsable: false
             }
